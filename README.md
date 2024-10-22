@@ -9,7 +9,7 @@ From command line, specify the input, working, and output directories. [Whisper]
 
 ## Installation
 
-1. Python version 3.12 or previous
+1. Requires Python version 3.12 or previous
 
 2. Install python-ffmpeg
 
