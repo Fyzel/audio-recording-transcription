@@ -17,7 +17,9 @@ From command line, specify the input, working, and output directories. [Whisper]
 pip3 install python-ffmpeg
 ```
 
-3. Install whisper
+3. Install pytorch with CUDA support (see [pytorch documentation](https://pytorch.org/get-started/locally/#with-cuda-1)).
+
+4. Install whisper
 
 ```bash
 pip3 install git+https://github.com/openai/whisper.git
