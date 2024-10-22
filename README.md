@@ -23,3 +23,10 @@ pip3 install python-ffmpeg
 pip3 install git+https://github.com/openai/whisper.git
 ```
 
+## Usage
+
+Specify the import directory with MP3 files. Specify the working directory where files are either copied (less than 25 MB) or segmented (greater than 25 MB). Specifying the directory where the output text files are saved. The trext files contain the dict output of the Whisper transcription call. 
+
+```bash
+python main.py -i "./test-data/input" -t "./test-data/working" -o "./test-data/output" -v
+```
